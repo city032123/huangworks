@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+html(class="no-js" lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Melinda Golden | Front-End Developer in Asheville, NC
+    link(href="/static/images/favicon.ico", rel="shortcut icon")
+    link(href='https://fonts.googleapis.com/css?family=Nunito:400,600|Roboto:400,700', rel='stylesheet')
+    link(href="https://use.fontawesome.com/releases/v5.5.0/css/all.css", rel="stylesheet", integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU", crossorigin="anonymous")
+    link(rel='stylesheet', href='/static/css/foundation.css')
+    link(rel='stylesheet', href='/static/css/style.css')
+
+  body(onload="document.body.style.opacity='1'")
+    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+      .grid-y.grid-padding-x(style='height: 100%;border-right: solid 1px #7386A1;overflow: hidden;')
+        block sidebar
+          div.sider-top
+            a(href='/')
+              div.sider-top-logo
+                .logo
+            div.sider-top-title
+              h2.bigtitle_info(style='width: 123px;') 资料
+                h4.smalltitle_info Portfolio
+          div.sider-info
+            div.sider-info-link
+              a(href='/about')
+                div.info-link
+                  .one
+              a(href='/about')
+                div.info-link
+                  .two
+              a(href='/about')
+                div.info-link
+                  .three
+            div.sider-info-about
+              div
+                div.bot
+                .h1b(style='margin:10px 0px 10px 0px')
+                  |HUANG
+                  br
+                  |GUO-WEI
+                .h2b(style='margin:10px 0px 10px 0px')  UI/UX DESIGN
+
+                a(href='/about', data-transition="pop")
+                  h3.infobutton(style='margin:31px 0px 31px 0px') 更多资讯
+              div.info-card-outline
+                div.info-card(style='margin-right: 27px;')
+                  h1(style='font-size:48px;padding-top:9px;') 9
+                  h4 年设计经验
+                div.info-card
+                  h1(style='font-size:48px;padding-top:9px;') 9
+                  h4 個上线项目
+          div.sider-info-photp
+
+
+    .off-canvas-content(data-off-canvas-content='')
+      .title-bar.hide-for-large
+        .title-bar-left
+          button.menu-icon(type='button', data-toggle='my-info')
+          span.title-bar-title huang guo wei
+      block content
+
+
+  script(src='/static/js/vendor/jquery.js')
+  script(src='/static/js/vendor/what-input.js')
+  script(src='/static/js/vendor/foundation.js')
+  script(src='/static/js/scripts.js')

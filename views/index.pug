@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+  article
+    div.worktitle
+      h2.bigtitle_work(style='width: 123px;') 作品
+        h3.smalltitle_work works
+  article
+    .grid-x.grid-margin-x.small-up-2.medium-up-3.large-up-4.workbox
+      each val, index in data
+        .cell.cellcontrol
+          a(href=`/project/${index}`)
+            img.workimgsize(src=`${val.image_urls[0]}`)
+            .workfontsize= val.project_name
+      
