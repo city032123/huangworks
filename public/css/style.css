@@ -4,7 +4,7 @@ General
 
 *****************************/
 *{
-  /*outline: solid 1px #7386A1;*/
+  /*outline: solid 1px #0E121A;*/
   transition:.1s;
 }
 
@@ -76,7 +76,7 @@ p {
 }
 
 .text-light {
-  color: #7386A1;
+  color: #BECBE0;
 }
 
 .text-main {
@@ -91,16 +91,17 @@ a {
 }
 
 a:hover {
-  color: #10E2FF;
+  color: #EDD6A8;
 }
 
 .image {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 5px #fff;
-  border-radius: 0;
+  padding: 200px;
+  border-radius: 2px;
   line-height: 0;
+  background-color: #1b1e25;
   -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
           box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
 }
@@ -187,7 +188,7 @@ Breadcrumb
   margin: 0;
   padding: 22px 30px 22px 30px;
   background: #282C33;
-  border-bottom: 1px solid #7386A1;
+  border-bottom: 1px solid #0E121A;
   width: 100%;
   height: 70px;
   position: fixed;
@@ -197,7 +198,7 @@ Breadcrumb
     margin: 0;
     padding: 0px 16px 0px 20px;
     background: #282C33;
-    border-bottom: 1px solid #7386A1;
+    border-bottom: 1px solid #0E121A;
     width: 100%;
     height: 35px;
     position: fixed;
@@ -337,7 +338,7 @@ Portfolio
 }
 
 .portfolio-link {
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -345,20 +346,23 @@ Portfolio
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #31b6bb;
-  -webkit-transition: color 0.5s;
-  -o-transition: color 0.5s;
-  transition: color 0.5s;
+  color: #000000;
+  -webkit-transition: color 0.1s;
+  -o-transition: color 0.1s;
+  transition: color 0.1s;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 10px 5px 10px;
+  background-color: #EDD6A8;
 }
 
 .portfolio-link i {
   padding-right: 10px;
-  font-size: 1.5rem;
 }
 
 .portfolio-link:hover,
 .portfolio-link:active {
-  color: #177074;
+  background-color: #DBC58E;
 }
 
 /*****************************
@@ -370,7 +374,7 @@ Media Queries
 @media screen and (min-width: 768px) {
   .portfolio-intro {
     margin: 0;
-    padding: 90px 50px 30px;
+    padding: 90px 30px 30px;
   }
   .portfolio-heading {
     margin-bottom: 40px;
@@ -428,12 +432,12 @@ Media Queries
   height: 70px;
   display: flex;
   display: -webkit-box;
-  border-bottom: solid 1px #7386A1;
+  border-bottom: solid 1px #0E121A;
 }
 .sider-top-logo{
   width: 70px;
   height: 70px;
-  border-right: solid 1px #7386A1;
+  border-right: solid 1px #0E121A;
   position: relative;
 }
 
@@ -461,13 +465,13 @@ Media Queries
   height: 397px;
   display: flex;
   display: -webkit-box;
-  border-bottom: solid 1px #7386A1;
+  border-bottom: solid 1px #0E121A;
 }
 
 .info-link{
   width: 70px;
   height: 70px;
-  border-right: solid 1px #7386A1;
+  border-right: solid 1px #0E121A;
   position: relative;
 }
 
@@ -502,12 +506,12 @@ Media Queries
 
 .sider-info-link{
   width: 70px;
-  border-right: solid 1px #7386A1;
+  border-right: solid 1px #0E121A;
 }
 .sider-info-link > .info-link{
   width: 70px;
   height: 70px;
-  border-bottom: solid 1px #7386A1;
+  border-bottom: solid 1px #0E121A;
 }
 .sider-info-about{
   padding: 30px;
@@ -520,10 +524,11 @@ Media Queries
   display: -webkit-box;
 }
 .info-card{
-  width: 72px;
+  width: 78px;
   height: 109px;
   text-align: center;
   background-color: #424956;
+  border-radius: 4px;
 }
 .bot{
   background-image: url("../webimg/dot.svg");
@@ -536,7 +541,16 @@ Media Queries
   text-align: center;
   width: 100%;
   padding: 5px 0px 5px 0px;
-  background-color: #10E2FF;
+  background-color: #EDD6A8
+  ;
+}
+.infobutton:hover{
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  background-color: #d3bc8d
+  ;
 }
 /*****************************
 个人资料底部
@@ -545,6 +559,23 @@ Media Queries
   width: 100%;
   height: 100%;
   background-color: #424956;
+  background-image: url("../webimg/photo.png");
+  background-size: 100%;
+  background-position: center;
+  transition:2s;
+}
+.sider-info-photp:hover{
+  background-size: 102%;
+  background-position: center;
+  transition:2s;
+}
+.copyright{
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+  
 }
 /*****************************
 作品卡片
@@ -582,7 +613,7 @@ Media Queries
   display: flex;
   display: -webkit-box;
   height: 70px;
-  border-bottom: solid 1px #7386A1;
+  border-bottom: solid 1px #0E121A;
 }
 
 @media screen and (max-width: 768px) {
@@ -591,7 +622,7 @@ Media Queries
     display: flex;
     display: -webkit-box;
     height: 40px;
-    border-bottom: solid 1px #7386A1;
+    border-bottom: solid 1px #0E121A;
     margin-top: 50px;
   }
 }

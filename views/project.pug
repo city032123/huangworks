@@ -7,18 +7,14 @@ block content
     .grid-x
       .cell.small-12.medium-9.large-9
         h1= data[id].project_name
+        br
         p.lead.text-light= data[id].description
       .cell.portfolio-meta.small-12.medium-2.large-3
-        h6 Technologies
-        ul.list
+        h3 使用技术
+        ul.h4
           each val in data[id].technologies
             li= val
         a.portfolio-link(href=`${data[id].live_link}`, target="_blank")
-          i.fas.fa-globe-americas
-          | Live Demo
-        a.portfolio-link(href=`${data[id].github_link}`, target="_blank")
-          i.fab.fa-github
-          | GitHub Repo
+          i.fab.fa-chrome
+          | 线上展示
     img.image(src=`${data[id].image_urls[1]}`)
-    img.image(src=`${data[id].image_urls[2]}`)
-    img.image(src=`${data[id].image_urls[3]}`)
