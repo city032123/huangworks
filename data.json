@@ -33,60 +33,6 @@
                 "/static/images/game3.jpg",
                 "/static/images/game4.jpg"
             ]
-        },
-        {
-            "id": 2,
-            "project_name": "Interactive Form",
-            "description": "This project enhances an interactive registration form for a fictional conference called 'FullStack Conf' using the jQuery library. The form is made to be more user friendly by adding customized and conditional behavior and interactivity. It also validates user input and provides helpful error messages when the user enters invalid information into the form fields.",
-            "technologies": [
-                "jQuery",
-                "CSS",
-                "HTML"
-            ],
-            "live_link": "https://mmgolden.github.io/interactive-form/",
-            "github_link": "https://github.com/mmgolden/interactive-form",
-            "image_urls": [
-                "/static/images/form1.jpg",
-                "/static/images/form2.jpg",
-                "/static/images/form3.jpg",
-                "/static/images/form4.jpg"
-            ]
-        },
-        {
-            "id": 3,
-            "project_name": "List Pagination and Filtering",
-            "description": "This project enhances the usability of a web page with pagination. This project uses 'progressive enhancement' so that JavaScript is used to enhance the web page, without making the web page dependent upon JavaScript. The pagination is dynamic, meaning it will work for any list containing any number of items.",
-            "technologies": [
-                "JavaScript",
-                "CSS",
-                "HTML"
-            ],
-            "live_link": "https://mmgolden.github.io/list-pagination-and-filtering/",
-            "github_link": "https://github.com/mmgolden/list-pagination-and-filtering",
-            "image_urls": [
-                "/static/images/pagination1.jpg",
-                "/static/images/pagination2.jpg",
-                "/static/images/pagination3.jpg",
-                "/static/images/pagination4.jpg"
-            ]
-        },
-        {
-            "id": 4,
-            "project_name": "Random Quote Generator",
-            "description": "This app displays random quotes from women in tech automatically or by clicking on a button. It also changes the background color.",
-            "technologies": [
-                "JavaScript",
-                "CSS",
-                "HTML"
-            ],
-            "live_link": "https://mmgolden.github.io/random-quote-generator/",
-            "github_link": "https://github.com/mmgolden/random-quote-generator",
-            "image_urls": [
-                "/static/images/random1.jpg",
-                "/static/images/random2.jpg",
-                "/static/images/random3.jpg",
-                "/static/images/random4.jpg"
-            ]
         }
     ]
 }
