@@ -89,22 +89,50 @@ a {
   -o-transition: color 0.5s;
   transition: color 0.5s;
 }
-
 a:hover {
   color: #EDD6A8;
+}
+a:focus {
+  outline:none;
 }
 
 .image {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  padding: 200px;
+  padding: 150px 300px 150px 300px;
   border-radius: 2px;
   line-height: 0;
   background-color: #1b1e25;
   -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
           box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .image {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    padding: 0px;
+    border-radius: 2px;
+    line-height: 0;
+    background-color: #1b1e25;
+    -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
+            box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
+  }
+  }
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    .image {
+      display: inline-block;
+      max-width: 100%;
+      margin-bottom: 1rem;
+      padding: 100px;
+      border-radius: 2px;
+      line-height: 0;
+      background-color: #1b1e25;
+      -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
+              box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
+  }
+  }
 
 .title-bar {
   background: #282C33;
@@ -165,7 +193,6 @@ Sidebar
   font-weight: 600;
   color: #fff;
   font-size: 0.813rem;
-  letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
   -webkit-transition: color 0.5s;
@@ -214,7 +241,7 @@ Breadcrumb
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #EDD6A8;
 @media screen and (min-width: 768px) {
   top:70px;
 }
@@ -286,7 +313,7 @@ Portfolio
 .portfolio-project p {
   border: none;
   padding-bottom: 0;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 .portfolio-project li{
@@ -362,6 +389,7 @@ Portfolio
 .portfolio-link:hover,
 .portfolio-link:active {
   background-color: #DBC58E;
+  color: #000000;
 }
 
 /*****************************
@@ -595,13 +623,50 @@ Media Queries
   width: 100%;
 }
 .workfontsize{
-  color: #ffffff;
-  font-size: 16px;
-  text-align: center;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+.workfontsize_title{
+  text-align: left;
+  width: 70%;
+}
+.workfontsize_sub{
+  font-size: 12px;
+  text-align: right;
+  width: 30%;
 }
 .cellcontrol{
   height: 100%;
   margin-bottom: 30px;
+  padding: 10px 10px 15px 10px;
+  border-radius: 6px;
+  border: solid 1px #282C33;
+  transition: .5s;
+  color: #ffffff;
+}.cellcontrol:hover{
+  color: #EDD6A8;
+  border-radius: 6px;
+  border: solid 1px #EDD6A8;
+}
+@media screen and (max-width: 768px){
+  .cellcontrol{
+    height: 100%;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 6px;
+    border: solid 1px #282C33;
+    transition: .5s;
+    color: #ffffff;
+  }.cellcontrol:hover{
+    height: 100%;
+    margin-bottom: 30px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 6px;
+    border: solid 1px #282C33;
+    transition: .5s;
+    color: #ffffff;
+  }
 }
 
 

@@ -11,5 +11,6 @@ block content
         .cell.cellcontrol
           a(href=`/project/${index}`)
             img.workimgsize(src=`${val.image_urls[0]}`)
-            .workfontsize= val.project_name
+            .workfontsize.workfontsize_title= val.project_name
+            .workfontsize.workfontsize_sub= val.project_type
       

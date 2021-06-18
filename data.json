@@ -3,6 +3,7 @@
         {
             "id": 0,
             "project_name": "天天天天",
+            "project_type": "UI/UX",
             "description": "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天",
             "technologies": [
                 "Fetch API",
@@ -19,6 +20,102 @@
         {
             "id": 1,
             "project_name": "Game Show App",
+            "project_type": "UI/UX",
+            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://mmgolden.github.io/game-show-app/",
+            "github_link": "https://github.com/mmgolden/game-show-app",
+            "image_urls": [
+                "/static/images/game1.jpg",
+                "/static/images/game2.jpg",
+                "/static/images/game3.jpg",
+                "/static/images/game4.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Game Show App",
+            "project_type": "UI/UX",
+            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://mmgolden.github.io/game-show-app/",
+            "github_link": "https://github.com/mmgolden/game-show-app",
+            "image_urls": [
+                "/static/images/game1.jpg",
+                "/static/images/game2.jpg",
+                "/static/images/game3.jpg",
+                "/static/images/game4.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Game Show App",
+            "project_type": "UI/UX",
+            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://mmgolden.github.io/game-show-app/",
+            "github_link": "https://github.com/mmgolden/game-show-app",
+            "image_urls": [
+                "/static/images/game1.jpg",
+                "/static/images/game2.jpg",
+                "/static/images/game3.jpg",
+                "/static/images/game4.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Game Show App",
+            "project_type": "UI/UX",
+            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://mmgolden.github.io/game-show-app/",
+            "github_link": "https://github.com/mmgolden/game-show-app",
+            "image_urls": [
+                "/static/images/game1.jpg",
+                "/static/images/game2.jpg",
+                "/static/images/game3.jpg",
+                "/static/images/game4.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Game Show App",
+            "project_type": "UI/UX",
+            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "https://mmgolden.github.io/game-show-app/",
+            "github_link": "https://github.com/mmgolden/game-show-app",
+            "image_urls": [
+                "/static/images/game1.jpg",
+                "/static/images/game2.jpg",
+                "/static/images/game3.jpg",
+                "/static/images/game4.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "project_name": "Game Show App",
+            "project_type": "UI/UX",
             "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
             "technologies": [
                 "JavaScript",
