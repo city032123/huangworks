@@ -1,5 +1,9 @@
 {
     "projects": [
+        
+        
+        
+        
         {
             "id": 0,
             "project_name": "天天天天",
@@ -12,11 +16,38 @@
             ],
             "live_link": "https://mmgolden.github.io/employee-directory/",
             "github_link": "https://github.com/mmgolden/employee-directory",
+"//": "设置图片最多六張",
             "image_urls": [
-                "/static/images/MM1.jpg",
-                "/static/images/MM2.jpg"
+                "/static/images/M6/MM1.svg",
+                "/static/images/M6/MM2.jpg",
+                "/static/images/M6/MM3.jpg",
+                "/static/images/M6/MM4.jpg",
+                "/static/images/M6/MM5.jpg",
+                "/static/images/M6/MM6.jpg",
+                "/static/images/M6/MM7.jpg"
+            ],
+"//": "设置动画(如果不要的话地址移除高宽设0px)",
+            "lottie_urls": [
+                "https://assets2.lottiefiles.com/packages/lf20_ibor2599.json"
+            ],
+            "lottie_style": [
+                "width: 100%; height: 40px;"
+            ],
+"//": "设置影片(如果不要的话地址移除高宽设0px)",
+            "video_urls": [
+                "https://player.vimeo.com/video/265962292?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ],
+            "video_h": [
+                "350px"
+            ],
+            "video_w": [
+                "100%"
             ]
         },
+
+
+
+
         {
             "id": 1,
             "project_name": "Game Show App",
@@ -29,106 +60,32 @@
             ],
             "live_link": "https://mmgolden.github.io/game-show-app/",
             "github_link": "https://github.com/mmgolden/game-show-app",
+"//": "设置图片",
             "image_urls": [
-                "/static/images/game1.jpg",
-                "/static/images/game2.jpg",
-                "/static/images/game3.jpg",
-                "/static/images/game4.jpg"
-            ]
-        },
-        {
-            "id": 2,
-            "project_name": "Game Show App",
-            "project_type": "UI/UX",
-            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
-            "technologies": [
-                "JavaScript",
-                "CSS",
-                "HTML"
+                "/static/images/MI/MI1.svg",
+                "/static/images/MI/MI2.jpg",
+                "/static/images/MI/MI3.jpg",
+                "/static/images/MI/MI4.jpg",
+                "/static/images/MI/MI5.jpg",
+                "/static/images/MI/MI6.jpg",
+                "/static/images/MI/MI7.jpg"
             ],
-            "live_link": "https://mmgolden.github.io/game-show-app/",
-            "github_link": "https://github.com/mmgolden/game-show-app",
-            "image_urls": [
-                "/static/images/game1.jpg",
-                "/static/images/game2.jpg",
-                "/static/images/game3.jpg",
-                "/static/images/game4.jpg"
-            ]
-        },
-        {
-            "id": 3,
-            "project_name": "Game Show App",
-            "project_type": "UI/UX",
-            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
-            "technologies": [
-                "JavaScript",
-                "CSS",
-                "HTML"
+"//": "设置动画(如果不要的话地址移除高宽设0px)",
+            "lottie_urls": [
+                "https://assets2.lottiefiles.com/packages/lf20_ibor2599.json"
             ],
-            "live_link": "https://mmgolden.github.io/game-show-app/",
-            "github_link": "https://github.com/mmgolden/game-show-app",
-            "image_urls": [
-                "/static/images/game1.jpg",
-                "/static/images/game2.jpg",
-                "/static/images/game3.jpg",
-                "/static/images/game4.jpg"
-            ]
-        },
-        {
-            "id": 4,
-            "project_name": "Game Show App",
-            "project_type": "UI/UX",
-            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
-            "technologies": [
-                "JavaScript",
-                "CSS",
-                "HTML"
+            "lottie_style": [
+                "width: 0px; height: 0px;"
             ],
-            "live_link": "https://mmgolden.github.io/game-show-app/",
-            "github_link": "https://github.com/mmgolden/game-show-app",
-            "image_urls": [
-                "/static/images/game1.jpg",
-                "/static/images/game2.jpg",
-                "/static/images/game3.jpg",
-                "/static/images/game4.jpg"
-            ]
-        },
-        {
-            "id": 5,
-            "project_name": "Game Show App",
-            "project_type": "UI/UX",
-            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
-            "technologies": [
-                "JavaScript",
-                "CSS",
-                "HTML"
+"//": "设置影片(如果不要的话地址移除高宽设0px)",
+            "video_urls": [
+                "https://player.vimeo.com/video/265962292?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             ],
-            "live_link": "https://mmgolden.github.io/game-show-app/",
-            "github_link": "https://github.com/mmgolden/game-show-app",
-            "image_urls": [
-                "/static/images/game1.jpg",
-                "/static/images/game2.jpg",
-                "/static/images/game3.jpg",
-                "/static/images/game4.jpg"
-            ]
-        },
-        {
-            "id": 6,
-            "project_name": "Game Show App",
-            "project_type": "UI/UX",
-            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
-            "technologies": [
-                "JavaScript",
-                "CSS",
-                "HTML"
+            "video_h": [
+                "0px"
             ],
-            "live_link": "https://mmgolden.github.io/game-show-app/",
-            "github_link": "https://github.com/mmgolden/game-show-app",
-            "image_urls": [
-                "/static/images/game1.jpg",
-                "/static/images/game2.jpg",
-                "/static/images/game3.jpg",
-                "/static/images/game4.jpg"
+            "video_w": [
+                "0px"
             ]
         }
     ]

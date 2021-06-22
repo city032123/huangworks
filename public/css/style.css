@@ -100,7 +100,7 @@ a:focus {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  padding: 150px 300px 150px 300px;
+  padding: 100px 300px 100px 300px;
   border-radius: 2px;
   line-height: 0;
   background-color: #1b1e25;
@@ -302,9 +302,6 @@ Portfolio
   margin-bottom: 30px;
 }
 
-.portfolio-meta {
-  font-weight: 600;
-}
 
 .portfolio-meta .button {
   margin-bottom: 5px;
@@ -585,15 +582,16 @@ Media Queries
 .sider-info-photp{
   width: 100%;
   height: 100%;
-  background-color: #424956;
+  background-color: #1a1f24;
   background-image: url("../webimg/photo.png");
   background-size: 100%;
-  background-position: center;
+  background-position: top;
+  background-repeat: no-repeat;
   transition:2s;
 }
 .sider-info-photp:hover{
   background-size: 102%;
-  background-position: center;
+  background-position: top;
   transition:2s;
 }
 .copyright{
