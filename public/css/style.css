@@ -16,7 +16,7 @@ section{
 body {
 
   font-size: 16px;
-  background: #282C33;
+  background: #1f2327;
   opacity: 0;
   transition: opacity .3s;
 }
@@ -467,12 +467,11 @@ Media Queries
 
 .sider-top-logo>.logo{
   position: absolute;
-  height: 24px;
-  width: 26px;
+  height: 100%;
+  width: 100%;
   background-image: url("../webimg/logo.svg");
-  background-size: cover;
-  top:23px;
-  left: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .sider-top-title{
   display: flex;
@@ -594,14 +593,7 @@ Media Queries
   background-position: top;
   transition:2s;
 }
-.copyright{
-  width: 100%;
-  position: absolute;
-  bottom: 20px;
-  text-align: center;
-  font-size: 12px;
-  
-}
+
 /*****************************
 作品卡片
 *****************************/
@@ -639,7 +631,7 @@ Media Queries
   margin-bottom: 30px;
   padding: 10px 10px 15px 10px;
   border-radius: 6px;
-  border: solid 1px #282C33;
+  border: solid 1px #0E121A;
   transition: .5s;
   color: #ffffff;
 }.cellcontrol:hover{
@@ -686,5 +678,53 @@ Media Queries
     height: 40px;
     border-bottom: solid 1px #0E121A;
     margin-top: 50px;
+  }
+}
+
+.workcopy{
+  position: fixed;
+  background-color: #282C33;
+  width: calc(100% - 300px);
+  bottom: 0px;
+  display: flex;
+  display: -webkit-box;
+  height: 60px;
+  border-top: solid 1px #0E121A;
+}
+@media screen and (max-width: 768px) {
+  .workcopy{
+    position: fixed;
+    background-color: #282C33;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    display: -webkit-box;
+    height: 40px;
+    border-top: solid 1px #0E121A;
+  }
+}
+.smalltitle_copy{
+  line-height: 60px;
+  width: 100%;
+  text-align: right;
+  padding: 0px 22px 0px 22px;
+}
+@media screen and (max-width: 768px) {
+  .smalltitle_copy{
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 22px 0px 22px;
+  }
+}
+
+
+
+.lottieoutline{
+  padding: 0px 35% 0px 35%;
+}
+@media screen and (max-width: 768px) {
+  .lottieoutline{
+    padding: 0px 20% 0px 20%;
   }
 }

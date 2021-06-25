@@ -18,7 +18,7 @@
             "github_link": "https://github.com/mmgolden/employee-directory",
 "//": "设置图片最多六張",
             "image_urls": [
-                "/static/images/M6/MM1.svg",
+                "https://assets9.lottiefiles.com/packages/lf20_8frtcjee.json",
                 "/static/images/M6/MM2.jpg",
                 "/static/images/M6/MM3.jpg",
                 "/static/images/M6/MM4.jpg",
@@ -62,7 +62,7 @@
             "github_link": "https://github.com/mmgolden/game-show-app",
 "//": "设置图片",
             "image_urls": [
-                "/static/images/MI/MI1.svg",
+                "https://assets3.lottiefiles.com/packages/lf20_77nltrkg.json",
                 "/static/images/MI/MI2.jpg",
                 "/static/images/MI/MI3.jpg",
                 "/static/images/MI/MI4.jpg",
