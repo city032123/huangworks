@@ -4072,7 +4072,7 @@ select {
   width: 100%;
   height: 100%;
   transition: opacity 0.5s ease, visibility 0.5s ease;
-  background: rgb(0 0 0 / 70%);
+  background: rgb(0 0 0 / 100%);
   opacity: 0;
   visibility: hidden;
   overflow: hidden; }
