@@ -662,6 +662,7 @@ Media Queries
 
 
 .worktitle{
+  z-index: 99;
   position: fixed;
   background-color: #282C33;
   width: 100%;
@@ -673,6 +674,7 @@ Media Queries
 
 @media screen and (max-width: 768px) {
   .worktitle{
+    z-index: 99;
     position: fixed;
     display: flex;
     display: -webkit-box;
