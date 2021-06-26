@@ -17,7 +17,7 @@ section{
 body {
 
   font-size: 16px;
-  background: #1f2327;
+  background: #0E121A;
   opacity: 0;
   transition: opacity .3s;
 }
@@ -104,7 +104,7 @@ a:focus {
   padding: 100px 300px 100px 300px;
   border-radius: 2px;
   line-height: 0;
-  background-color: #1b1e25;
+  background-color: #1D2229;
   -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
           box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
 }
@@ -136,7 +136,7 @@ a:focus {
   }
 
 .title-bar {
-  background: #282C33;
+  background: #1D2229;
   position: fixed;
   width: 100%;
   height: 50px;
@@ -158,7 +158,7 @@ Sidebar
 
 .portfolio-me {
   padding: 0px;
-  background: #282C33;
+  background: #1D2229;
   color: #fff;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -215,7 +215,7 @@ Breadcrumb
 .portfolio-breadcrumb {
   margin: 0;
   padding: 22px 30px 22px 30px;
-  background: #282C33;
+  background: #1D2229;
   border-bottom: 1px solid #0E121A;
   width: 100%;
   height: 70px;
@@ -225,7 +225,7 @@ Breadcrumb
   .portfolio-breadcrumb {
     margin: 0;
     padding: 0px 16px 0px 20px;
-    background: #282C33;
+    background: #1D2229;
     border-bottom: 1px solid #0E121A;
     width: 100%;
     height: 35px;
@@ -551,7 +551,7 @@ Media Queries
   width: 78px;
   height: 109px;
   text-align: center;
-  background-color: #424956;
+  background-color: #0E121A;
   border-radius: 4px;
 }
 .bot{
@@ -580,19 +580,14 @@ Media Queries
 个人资料底部
 *****************************/
 .sider-info-photp{
-  width: 100%;
-  height: 100%;
-  background-color: #1a1f24;
-  background-image: url("../webimg/photo.png");
+  /* width: 100%;
+  height: 100%; */
+  /* background-color: #1a1f24;
+  background-image: url("../webimg/photo.svg");
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
-  transition:2s;
-}
-.sider-info-photp:hover{
-  background-size: 102%;
-  background-position: top;
-  transition:2s;
+  transition:2s; */
 }
 
 /*****************************
@@ -629,10 +624,11 @@ Media Queries
 }
 .cellcontrol{
   height: 100%;
+  background-color: #1d2328;
   margin-bottom: 30px;
   padding: 10px 10px 15px 10px;
   border-radius: 6px;
-  border: solid 1px #0E121A;
+  border: solid 1px #1d2328;
   transition: .5s;
   color: #ffffff;
 }.cellcontrol:hover{
@@ -642,19 +638,12 @@ Media Queries
 }
 @media screen and (max-width: 768px){
   .cellcontrol{
+    background-color: #1d2328;
+    border: solid 0px #1d2328;
     height: 100%;
     margin-bottom: 30px;
-    padding: 0px 0px 0px 0px;
+    padding: 5px 5px 10px 5px;
     border-radius: 6px;
-    border: solid 1px #282C33;
-    transition: .5s;
-    color: #ffffff;
-  }.cellcontrol:hover{
-    height: 100%;
-    margin-bottom: 30px;
-    padding: 0px 0px 0px 0px;
-    border-radius: 6px;
-    border: solid 1px #282C33;
     transition: .5s;
     color: #ffffff;
   }
@@ -664,7 +653,7 @@ Media Queries
 .worktitle{
   z-index: 99;
   position: fixed;
-  background-color: #282C33;
+  background-color: #1D2229;
   width: 100%;
   display: flex;
   display: -webkit-box;
@@ -686,7 +675,7 @@ Media Queries
 
 .workcopy{
   position: fixed;
-  background-color: #282C33;
+  background-color: #1D2229;
   width: calc(100% - 300px);
   bottom: 0px;
   display: flex;
@@ -697,7 +686,7 @@ Media Queries
 @media screen and (max-width: 768px) {
   .workcopy{
     position: fixed;
-    background-color: #282C33;
+    background-color: #1D2229;
     width: 100%;
     bottom: 0px;
     display: flex;
