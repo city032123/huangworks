@@ -22,7 +22,74 @@ body {
   transition: opacity .3s;
 }
 
+#Transitional{ 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #2b62cf;
+  z-index: 100;
+}
 
+.slidein {
+  -moz-animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+@-moz-keyframes slidein {
+  from {
+    background-color: #177074;
+    width: 100px;
+    height: 100px;
+  }
+
+  to {
+    background-color: #177074;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    background-color: #177074;
+    width: 100px;
+    height: 100px;
+  }
+
+  to {
+    background-color: #177074;
+    width: 200px;
+    height: 200px;
+ }
+}
+
+@keyframes slidein {
+  from {
+    background-color: #177074;
+    width: 100px;
+    height: 100px;
+  }
+
+  to {
+    background-color: #177074;
+    width: 200px;
+    height: 200px;
+ }
+}
+
+
+.disabble{
+  display: none;
+}
 
 h1{
   margin: 0;

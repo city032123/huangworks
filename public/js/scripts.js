@@ -78,3 +78,28 @@ $(function(){
 
 });
 
+function callback() {
+    setTimeout(function() {
+      $( "#Transitional" ).removeClass( "Transitional" );
+    }, 1 );
+  }
+
+  window.setTimeout( 
+      function(){$( "#Transitional" ).removeClass( "Transitional" );}, 1000);
+
+
+var doFirst = function () {
+    console.log('do first...');
+    setTimeout(
+        function(){$( "#Transitional" ).addClass( ".disabble" );}, 1000
+        );
+}
+
+
+var doFirst = function (callback) {
+    setTimeout(function() {
+        console.log('do first...');
+        $("#Transitional").addClass("disabble");
+    }, 1000); // 非同步，3秒後才執行
+}
+doFirst();
