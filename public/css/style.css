@@ -6,16 +6,18 @@ General
 *{
   /*outline: solid 1px #0E121A;*/
   transition:.1s;
-  
 }
 
 section{
   width: 100vw;
   height: 100vh;
 }
+html{
+  height: 100%;
+}
 
 body {
-
+  height: 100%;
   font-size: 16px;
   background: #0E121A;
   opacity: 0;
@@ -26,7 +28,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: #2b62cf;
+  background-color: #0E121A;
   z-index: 100;
 }
 
@@ -47,42 +49,42 @@ body {
 @-moz-keyframes slidein {
   from {
     background-color: #177074;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
   }
 
   to {
     background-color: #177074;
-    width: 200px;
-    height: 200px;
+    width: 0%;
+    height: 100%;
   }
 }
 
 @-webkit-keyframes slidein {
   from {
     background-color: #177074;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
   }
 
   to {
     background-color: #177074;
-    width: 200px;
-    height: 200px;
+    width: 0%;
+    height: 100%;
  }
 }
 
 @keyframes slidein {
   from {
     background-color: #177074;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
   }
 
   to {
     background-color: #177074;
-    width: 200px;
-    height: 200px;
+    width: 0%;
+    height: 100%;
  }
 }
 
