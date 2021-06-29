@@ -48,13 +48,13 @@ body {
 }
 @-moz-keyframes slidein {
   from {
-    background-color: #177074;
+    background-color: #EDD6A8;
     width: 100%;
     height: 100%;
   }
 
   to {
-    background-color: #177074;
+    background-color: #EDD6A8;
     width: 0%;
     height: 100%;
   }
@@ -62,13 +62,13 @@ body {
 
 @-webkit-keyframes slidein {
   from {
-    background-color: #177074;
+    background-color: #EDD6A8;
     width: 100%;
     height: 100%;
   }
 
   to {
-    background-color: #177074;
+    background-color: #EDD6A8;
     width: 0%;
     height: 100%;
  }
@@ -76,13 +76,13 @@ body {
 
 @keyframes slidein {
   from {
-    background-color: #177074;
+    background-color: #EDD6A8;
     width: 100%;
     height: 100%;
   }
 
   to {
-    background-color: #177074;
+    background-color: #EDD6A8;
     width: 0%;
     height: 100%;
  }
@@ -272,7 +272,7 @@ Sidebar
 
 .portfolio-me a:hover,
 .portfolio-me a:active {
-  color: #177074;
+  color: #EDD6A8;
 }
 
 /*****************************
@@ -427,7 +427,7 @@ Portfolio
 
 .social li a:hover,
 .social li a:active {
-  background: #177074;
+  background: #EDD6A8;
 }
 
 .portfolio-link {
