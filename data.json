@@ -6,16 +6,20 @@
         
         {
             "id": 0,
-            "project_name": "天天天天",
+            "project_name": "M6 SPORT",
             "project_type": "UI/UX",
-            "description": "天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天天",
-            "technologies": [
-                "Fetch API",
-                "JavaScript",
-                "CSS"
+            "description": [
+                "M6 SPORT整套设计采用figma设计，组件库串连方式为assets做分档串接，便于将模块拆分，减少编辑内存需求，同时方便管理同事组件规范。",
+                "交互也是使用figma做每个区块的说明。动画则是使用json来做导入。",
+                "设计则是偏向数据展示，以实用主义为主，整体使用黄色掉、斜切、小圆角，展现整体较为钢硬的风格。"
             ],
-            "live_link": "https://mmgolden.github.io/employee-directory/",
-            "github_link": "https://github.com/mmgolden/employee-directory",
+            "technologies": [
+                "FIGMA",
+                "AFTER EFFECTS",
+                "ADOBE ALLTOOLS"
+            ],
+            "live_link": "https://www.m6vip2.com/home",
+            "github_link": "",
 "//": "设置图片最多六張",
             "image_urls": [
                 "https://assets6.lottiefiles.com/packages/lf20_lq0lk87r.json",
@@ -50,16 +54,20 @@
 
         {
             "id": 1,
-            "project_name": "Game Show App",
+            "project_name": "MiMi Chat",
             "project_type": "UI/UX",
-            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
-            "technologies": [
-                "JavaScript",
-                "CSS",
-                "HTML"
+            "description": [
+                "MiMi是一款基于隐私与聊天安全的聊天软件。",
+                "通过比较市面上所有相同类型软件，整合了所有功能，用户进入时",
+                "能够无缝的将其他聊天软件的实用习惯，快速带入。"
             ],
-            "live_link": "https://mmgolden.github.io/game-show-app/",
-            "github_link": "https://github.com/mmgolden/game-show-app",
+            "technologies": [
+                "FIGMA",
+                "AFTER EFFECTS",
+                "ADOBE ALLTOOLS"
+            ],
+            "live_link": "http://www.mmimchat.com/",
+            "github_link": "",
 "//": "设置图片",
             "image_urls": [
                 "https://assets7.lottiefiles.com/packages/lf20_xrzfsi3f.json",
@@ -93,16 +101,19 @@
 
         {
             "id": 2,
-            "project_name": "Game Show App",
+            "project_name": "ZZ SPORT",
             "project_type": "UI/UX",
-            "description": "This is a browser-based, word guessing game called 'Phrase Hunter.' This project focuses on OOP (Object Oriented Programming). In the game, the player tries to guess a random, hidden phrase by clicking on letters on an onscreen keyboard.",
+            "description": [
+                "ZZ体育是一款侧重于体育直播的网站，提供用户快速取得赛事的资讯与赛事分析",
+                "同时提供线上聊天与盘口分析，让用户更能参与赛事。"
+            ],
             "technologies": [
-                "JavaScript",
-                "CSS",
+                "FIGMA",
+                "AXURE",
                 "HTML"
             ],
-            "live_link": "https://mmgolden.github.io/game-show-app/",
-            "github_link": "https://github.com/mmgolden/game-show-app",
+            "live_link": "",
+            "github_link": "",
 "//": "设置图片",
             "image_urls": [
                 "https://assets9.lottiefiles.com/packages/lf20_dscvticz.json",

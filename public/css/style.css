@@ -139,7 +139,9 @@ p {
   color: #FFFFFF;
 }
 
-
+li{
+  list-style: none;
+}
 
 .round{
   border-radius: 5px;

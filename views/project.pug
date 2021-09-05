@@ -7,11 +7,12 @@ block content
     .grid-x
       .cell.small-12.medium-9.large-9
         h1= data[id].project_name
-        br
-        p.lead.text-light= data[id].description
+        each val in data[id].description
+          li= val
+
       .cell.portfolio-meta.small-12.medium-2.large-3
         h3 使用技术
-        ul.h4
+        .h4
           each val in data[id].technologies
             li= val
         a.portfolio-link(href=`${data[id].live_link}`, target="_blank")
