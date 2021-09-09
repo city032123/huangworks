@@ -6,7 +6,7 @@
         
         {
             "id": 0,
-            "project_name": "M6 SPORT",
+            "project_name": "米乐体育 PC&H5&APP设计",
             "project_type": "UI/UX",
             "description": [
                 "M6 SPORT整套设计采用figma设计，组件库串连方式为assets做分档串接，便于将模块拆分，减少编辑内存需求，同时方便管理同事组件规范。",
@@ -54,7 +54,7 @@
 
         {
             "id": 1,
-            "project_name": "MiMi Chat",
+            "project_name": "MIMI通讯 PC&H5&APP设计",
             "project_type": "UI/UX",
             "description": [
                 "MiMi是一款基于隐私与聊天安全的聊天软件。",
@@ -95,53 +95,11 @@
             "video_w": [
                 "0px"
             ]
-        },
-
-
-
-        {
-            "id": 2,
-            "project_name": "ZZ SPORT",
-            "project_type": "UI/UX",
-            "description": [
-                "ZZ体育是一款侧重于体育直播的网站，提供用户快速取得赛事的资讯与赛事分析",
-                "同时提供线上聊天与盘口分析，让用户更能参与赛事。"
-            ],
-            "technologies": [
-                "FIGMA",
-                "AXURE",
-                "HTML"
-            ],
-            "live_link": "",
-            "github_link": "",
-"//": "设置图片",
-            "image_urls": [
-                "https://assets9.lottiefiles.com/packages/lf20_dscvticz.json",
-                "/static/images/ZZ/ZZ2.jpg",
-                "/static/images/MI/MI3.jpg",
-                "/static/images/MI/MI4.jpg",
-                "/static/images/MI/MI5.jpg",
-                "/static/images/MI/MI6.jpg",
-                "/static/images/MI/MI7.jpg"
-            ],
-"//": "设置动画(如果不要的话地址移除高宽设0px)",
-            "lottie_urls": [
-                "https://lottiefiles.com/share/fxaalfie"
-            ],
-            "lottie_style": [
-                "width: 0px; height: 0px;"
-            ],
-"//": "设置影片(如果不要的话地址移除高宽设0px)",
-            "video_urls": [
-                "https://player.vimeo.com/video/265962292?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            ],
-            "video_h": [
-                "0px"
-            ],
-            "video_w": [
-                "0px"
-            ]
         }
+
+
+
+
 
 
 
