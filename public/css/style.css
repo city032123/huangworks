@@ -89,6 +89,11 @@ body {
 }
 
 
+hr{
+  max-width: 100%;
+  border-bottom: 1px solid #1d2228;
+}
+
 .disabble{
   display: none;
 }
@@ -175,7 +180,7 @@ a:focus {
   padding: 50px 400px 50px 400px;
   border-radius: 20px;
   line-height: 0;
-  background-color: #c4cfdc;
+  background-color: #0e121a;
   -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
           box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
 }
@@ -187,7 +192,7 @@ a:focus {
     padding: 0px;
     border-radius: 20px;
     line-height: 0;
-    background-color: #c4cfdc;
+    background-color: #0e121a;
     -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
             box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
   }
@@ -200,7 +205,20 @@ a:focus {
       padding: 100px;
       border-radius: 20px;
       line-height: 0;
-      background-color: #c4cfdc;
+      background-color: #0e121a;
+      -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
+              box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
+  }
+  }
+  @media screen and (min-width: 1440px) and (max-width: 1920px) {
+    .image {
+      display: inline-block;
+      max-width: 100%;
+      margin-bottom: 1rem;
+      padding: 50px 300px 50px 300px;
+      border-radius: 20px;
+      line-height: 0;
+      background-color: #0e121a;
       -webkit-box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
               box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.1);
   }
