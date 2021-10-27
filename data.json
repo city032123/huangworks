@@ -102,7 +102,7 @@
         {
             "id": 2,
             "project_name": "ZZ体育",
-            "project_type": "UX",
+            "project_type": "产品设计",
             "description": [
                 "ZZ体育是一款侧重于体育直播的网站，提供用户快速取得赛事的资讯与赛事分析",
                 "同时提供线上聊天与盘口分析，让用户更能参与赛事。"
@@ -116,7 +116,7 @@
             "github_link": "",
 "//": "设置图片",
             "image_urls": [
-                "https://assets9.lottiefiles.com/packages/lf20_dscvticz.json",
+                "https://assets7.lottiefiles.com/packages/lf20_prxkc6cz.json",
                 "/static/images/ZZ/ZZ2.jpg",
                 "/static/images/MI/MI3.jpg",
                 "/static/images/MI/MI4.jpg",
@@ -150,8 +150,9 @@
             "project_name": "牛币交易所",
             "project_type": "UI/UX",
             "description": [
-                "ZZ体育是一款侧重于体育直播的网站，提供用户快速取得赛事的资讯与赛事分析",
-                "同时提供线上聊天与盘口分析，让用户更能参与赛事。"
+                "牛幣是一款場外交易虛擬貨幣的APP.可通過便捷買賣,快速配對買賣家.",
+                "本APP進行第三方管控,確保交易安全有效.",
+                "同時可以配合特定行業接入,落實USDT充值與提現."
             ],
             "technologies": [
                 "FIGMA",
@@ -162,7 +163,7 @@
             "github_link": "",
 "//": "设置图片",
             "image_urls": [
-                "https://assets2.lottiefiles.com/packages/lf20_mkf3j8ph.json",
+                "https://assets9.lottiefiles.com/packages/lf20_imagvtty.json",
                 "/static/images/NB/NB2.jpg",
                 "/static/images/NB/NB3.jpg",
                 "/static/images/NB/NB4.jpg",
